@@ -152,8 +152,9 @@ telegram.send("SLS загружен!!!")
 Выполняет текст скрипта в контексте текущего.
 
 ```lua
-dofile(scriptPath)
+result = dofile(scriptPath)
 -- scriptPath - STR, путь к запускаемому скрипту вида "/int/script.lua"
+-- result - результат работы скрипта(возращаемое значение), тип тот же что возвращает скрипт 
 ```
 
 #### scripts.run()
